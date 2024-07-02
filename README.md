@@ -1,6 +1,6 @@
 # Lista de Compras
 
-
+![Foto da Lista de tarefas](./assets/decricao.png)
 
 ### Requisitos
 
