@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <!-- <script src="./script.js" defer></script> -->
+        <script src="./app.js" defer></script>
+        <title>Lista de Compras</title>
+    </head>
+    <body>
+        <header>
+            <img src="./assets/default.png" alt="Logo do Site" class="logo">
+        </header>
+        <main class="container">
+            <section class="container__section">
+                <img src="./assets/shopping-cart.png" alt="shopping-cart" class="container__section-img">
+                <h1 class="container__section-titulo">Lista de Compras</h1>
+                <p class="container__section-paragrafo">Facilite sua ida ao supermercado.!</p>
+
+                <form action="">
+                    <div class="container__section-form">
+                        <div>
+                            <label for="item">Item</label>
+                            <input type="text" name="item" id="item" required>
+                        </div>
+    
+                        <div>
+                            <label for="quantidade">Quantidade</label>
+                            <input type="number" name="quantidade" id="quantidade" required>
+                        </div>
+                    </div>
+                  
+                    <button class="btn">Add ao carrinho</button>
+                </form>
+
+                <ul class="lista_compras"></ul>
+            
+            </section>
+        </main>
+        <footer class="rodape">
+            <img src="./assets/default-monochrome-black.svg" alt="footer da pagina" class="rodape-img">
+            <div>
+                <p class="rodape-texto">***You will never find time for anything. If you want time you must make it.!***</p> 
+                <p class="rodape-texto">Aqui erro é igual filho, se vc achar um, ele é teu, e vc resolve.!</p>
+            </div>
+        </footer>
+    </body>
+</html>

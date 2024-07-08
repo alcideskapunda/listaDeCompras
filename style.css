@@ -1,0 +1,139 @@
+:root {
+    --fundo-pag: #f6f6f6;
+    --cor-paragrafh: #525252;
+    --cor-titulo: #000;
+    --cor-botao: #4CAF50;
+    --cinza-secundario: #c0c0c03a;
+    --font-pag: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--fundo-pag);
+    color: var(--cor-paragrafh);
+    font-family: var(--font-pag);
+}
+
+.logo {
+    width: 20%;
+    margin: 3% 0 0 8%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container__section {
+    background-color: var(--cinza-secundario);
+    text-align: center;
+    border-radius: 1.25rem;
+    padding: 1.5rem;
+}
+
+.container__section-img {
+    width: 10%;
+    margin: 1.25rem;
+}
+
+.container__section-titulo {
+    font-size: 1.875rem;
+    color: var(--cor-titulo);
+}
+
+.container__section-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin: 2rem;
+}
+
+div label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+div input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: var(--cor-botao);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: var(--cor-paragrafh);
+}
+
+.lista_compras {
+    margin: 0 auto;
+    margin-top: 3rem;
+    width: 100%;
+    align-items: center;
+}
+
+.lista_compras_elemento {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.checkbox {
+    width: 28px;
+    cursor: pointer;
+}
+
+.lista_compras_elemento_item {
+    color: var(--cor-titulo);
+    font-size: 28px;
+}
+
+.lista_compras_elemento_qtd {
+    margin-top: 1px;
+}
+
+.delete-btn {
+    padding: 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #910505;
+    color: var(--fundo-pag);
+    font-weight: bold;
+} 
+
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cinza-secundario);
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.rodape-img {
+    width: 20%;
+    padding-left: 8%;
+}
+
+.rodape-texto {
+    font-weight: bold;
+    color: var(--cor-titulo);
+}
